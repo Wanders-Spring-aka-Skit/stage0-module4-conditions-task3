@@ -10,7 +10,7 @@ public class DaysInMonthPrinter {
             } else if (month == 2) {
                 System.out.println(28);
             }
-        } else {
+        } else if ( month > 12) {
             System.out.println("wrong number!");
         }
     }
