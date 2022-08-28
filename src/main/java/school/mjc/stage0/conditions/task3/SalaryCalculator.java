@@ -11,7 +11,7 @@ public class SalaryCalculator {
         } else if(salary > 20000) {
             double taxes = (salary / 100) * 20;
             System.out.println(salary - taxes);
-        } else {
+        } else if (salary < 0) {
             System.out.println("wrong input!");
         }
     }
